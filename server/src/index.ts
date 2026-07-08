@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://your-app.vercel.app",
+      "https://ai-workout-planner-sepia.vercel.app/",
     ],
     credentials: true,
   })
