@@ -23,10 +23,10 @@ export default  function() {
                     </>
                     ) : (
                         <>
-                        <Link to="auth/sign-in" >
+                        <Link to="/auth/sign-in" >
                             <Button variant="ghost" size="sm" >Sign In</Button>
                         </Link>
-                        <Link to="auth/sign-up" >
+                        <Link to="/auth/sign-up" >
                             <Button size="sm" >Sign Up</Button>
                         </Link>
                     </>
