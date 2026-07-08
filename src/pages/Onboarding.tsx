@@ -94,6 +94,7 @@ export default function Onboarding() {
       navigate("/profile");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to save profile");
+      console.log(error);
     } finally {
       setIsGenerating(false);
     }
